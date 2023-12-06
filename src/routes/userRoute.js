@@ -18,6 +18,7 @@ router.patch("/update/:userID", updateUsersbyID);
 router.delete("/deleteUser/:userID", deleteUsers);
 router.get("/findAll", findAllUsers);
 
+
 // Add routes
 // routes.get('/', SessionController.store);
 // routes.post('/', SessionController.store);

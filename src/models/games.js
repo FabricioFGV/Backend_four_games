@@ -16,7 +16,7 @@ const Games = dbConnection.define("games", {
         defaultValue: 0
     },
     imagen: {
-        type: DataTypes.STRING(25)
+        type: DataTypes.STRING(255)
     },
     requisitos: {
         type: DataTypes.STRING(1000)
